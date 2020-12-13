@@ -1,7 +1,8 @@
 {
   "name": "ESF PWA",
   "short_name": "ESF PWA",
-  "start_url": "/",
+  "scope": "/esf-pwa",
+  "start_url": "/esf-pwa",
   "display": "standalone",
   "background_color": "red",
   "theme_color": "red",
