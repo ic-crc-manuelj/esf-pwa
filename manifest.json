@@ -9,10 +9,29 @@
   "description": "A sample PWA.",
   "icons": [
     {
-      "src": "./favicon.svg",
-      "sizes": "150x150",
-      "type": "image/svg+xml",
-      "purpose": "maskable any"
-    }
+      "src": "./icons/star-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/star-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/star-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/star-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/star-196x196.png",
+      "sizes": "196x196",
+      "type": "image/png"
+    },
   ]
 }
