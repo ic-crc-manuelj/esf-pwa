@@ -5,7 +5,7 @@ window.onload = () => {
     navigator.serviceWorker
       .register(
         './service-worker.js',
-        { scope: "/esf-pwa" }
+        { scope: "/esf-pwa/" }
       )
       .then(() => console.log('Service Worker Registered'))
       .catch(e => console.log(e))
