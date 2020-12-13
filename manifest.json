@@ -9,9 +9,8 @@
   "icons": [
     {
       "src": "favicon.svg",
-      "sizes": "96x96 128x128 256x256",
-      "type": "image/svg",
-      "purpose": "maskable any"
+      "sizes": "any",
+      "type": "image/svg+xml"
     }
   ]
 }
