@@ -1,6 +1,7 @@
 {
   "name": "ESF PWA",
   "short_name": "ESF PWA",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "red",
   "theme_color": "red",
@@ -9,7 +10,8 @@
     {
       "src": "favicon.svg",
       "sizes": "any",
-      "type": "image/svg"
+      "type": "image/svg",
+      "purpose": "maskable any"
     }
   ]
 }
