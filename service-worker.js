@@ -2,10 +2,11 @@ self.addEventListener('install', function(e) {
   e.waitUntil(
     caches.open('esf-pwa').then(function(cache) {
       return cache.addAll([
-        '/index.html',
-        '/index.js',
-        '/index.css',
-        '/favicon.svg'
+        '/esf-pwa/',
+        '/esf-pwa/index.html',
+        '/esf-pwa/index.js',
+        '/esf-pwa/index.css',
+        '/esf-pwa/favicon.svg'
       ]);
     })
   );
