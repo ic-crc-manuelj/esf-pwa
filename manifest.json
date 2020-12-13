@@ -9,7 +9,7 @@
   "description": "A sample PWA.",
   "icons": [
     {
-      "src": "favicon.svg",
+      "src": "./favicon.svg",
       "sizes": "150x150",
       "type": "image/svg+xml"
     }
