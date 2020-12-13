@@ -8,7 +8,7 @@ self.addEventListener('install', function(e) {
         '/esf-pwa/index.css',
         '/esf-pwa/icon.svg',
         '/esf-pwa/icons/icon-48x48.png',
-        '/esf-pwa/icons/icon-12x128.png',
+        '/esf-pwa/icons/icon-128x128.png',
         '/esf-pwa/icons/icon-144x144.png',
         '/esf-pwa/icons/icon-152x152.png',
         '/esf-pwa/icons/icon-196x196.png',
