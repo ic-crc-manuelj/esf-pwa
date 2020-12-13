@@ -6,7 +6,7 @@ const generateIcons = svg => {
     .then(data => {
       const img = new Image(); 
       img.onload = () => {
-        [44, 128, 144, 152, 196]
+        [48, 128, 144, 152, 196]
           .forEach(w => downloadImage(img, w, w))
       }; 
       img.onerror = e => {
@@ -34,16 +34,16 @@ const downloadImage = (img, w, h) => {
 
 window.onload = () => {
 
-  generateIcons('icon.svg')
-  // if('serviceWorker' in navigator) {
-  //   navigator.serviceWorker
-  //     .register(
-  //       './service-worker.js',
-  //       { scope: "/esf-pwa/" }
-  //     )
-  //     .then(() => console.log('Service Worker Registered'))
-  //     .catch(e => console.log(e))
-  // } else {
-  //   console.log("No?")
-  // }
+  // generateIcons('icon.svg')
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker
+      .register(
+        './service-worker.js',
+        { scope: "/esf-pwa/" }
+      )
+      .then(() => console.log('Service Worker Registered'))
+      .catch(e => console.log(e))
+  } else {
+    console.log("No?")
+  }
 }
