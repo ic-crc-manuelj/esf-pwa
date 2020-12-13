@@ -4,8 +4,8 @@
   "scope": "/esf-pwa/",
   "start_url": "/esf-pwa/",
   "display": "standalone",
-  "background_color": "red",
-  "theme_color": "red",
+  "background_color": "lightblue",
+  "theme_color": "lightblue",
   "description": "A sample PWA.",
   "icons": [
     {
