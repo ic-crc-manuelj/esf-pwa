@@ -1,0 +1,15 @@
+{
+  "name": "ESF PWA",
+  "short_name": "ESF PWA",
+  "display": "standalone",
+  "background_color": "lightblue",
+  "theme_color": "lightblue",
+  "description": "A sample PWA.",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg"
+    }
+  ]
+}
